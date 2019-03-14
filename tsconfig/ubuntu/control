@@ -1,0 +1,12 @@
+Source: tsconfig
+Section: unknown
+Priority: extra
+Maintainer: Mario Alfredo Carrillo Arevalo <mario.carrillo.arevalo@gmail.com>
+Build-Depends: python-setuptools (>= 0.6b3), python-all (>= 2.6.6-3), debhelper (>= 7.4.3), dh-python
+
+Standards-Version: 3.9.6
+Package: tsconfig
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}
+Description: This package contains the stx-fault/tsconfig project.
+
